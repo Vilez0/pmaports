@@ -13,8 +13,8 @@ depends="
 	linux-postmarketos-qcom-sm7150
 	make-dynpart-mappings
 	mkbootimg
+	boot-deploy
 	postmarketos-base
-	postmarketos-update-kernel
 	soc-qcom-sm7150
 "
 makedepends="devicepkg-dev"
