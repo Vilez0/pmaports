@@ -16,7 +16,7 @@ url="https://github.com/sm7150-mainline/firmware-xiaomi-sweet_k6a"
 arch="aarch64"
 license="proprietary"
 options="!check !strip !archcheck !tracedeps pmb:cross-native"
-_commit="4b6f7e001497550fb0d863ffbd3088940f3ffd1c"
+_commit="60c0f9d0853ab65c5c0038504e459315c0085694"
 source="
 	$pkgname-$_commit.tar.gz::$url/archive/$_commit/$pkgname-$_commit.tar.gz
 	adsp.files
@@ -103,7 +103,7 @@ wlan() {
 }
 
 sha512sums="
-82c341dca5f2df43d3c87d534ad9001cbb7ba28881ac4ca84ed78e60d84b5747fe5909cc16ee1cbcab26b07e2e8728ef3f0626c1c838bd7697c980bbfaa2bfd9  firmware-xiaomi-sweet_k6a-4b6f7e001497550fb0d863ffbd3088940f3ffd1c.tar.gz
+9f5c1e0e9c7b8d33d8c25cd42ce537aeab582b50b6e27cfed73e6f27187c91691c12607bf072a7bcabd1252133fb3e34b2f8e73dce99949e42f5b3431a630e0a  firmware-xiaomi-sweet_k6a-60c0f9d0853ab65c5c0038504e459315c0085694.tar.gz
 bd680693e8b3699a17d9fa6f3bdd877647f13fbdb51f29274beff31c34017dea71130af3f63cb279aec79f89d83e8aa6b20a1733c2cf16b3024c78be17ddc73c  adsp.files
 a21ac6f674b3041226cd3d9376f713f882744ccead71307841688c347f9baf0a9125d6f03a4a3275cef9d3089e95d135b040bda702663bdcf99037590fce4b56  cdsp.files
 ee8b3f1eb296a45402cb63cecddad7d89649078d2a8ed9967b4672025baf580f61cb0f32dbf59c20bae5bf2d84312ad5ed44dfa50fa590ebf2f101e3f1ebabf7  gpu.files
